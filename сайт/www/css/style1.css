@@ -1,0 +1,338 @@
+*, html, body
+{
+	box-sizing: border-box;
+	margin:0;
+  	padding:0;
+}
+
+html{
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	background: #2A2A2A;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #878787;
+  line-height: 130%;
+}
+h1, h2 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #000000;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 2.4em;
+}
+p, ul {
+	margin-top: 0;
+	line-height: 180%;
+}
+a{
+  color:#000000;
+  text-decoration: none;
+}
+a:hover {color: #e1e5be;}
+header {
+	clear: both;
+	width: 100%;
+	height: 250px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+	background: url(https://st.depositphotos.com/2101611/3795/i/950/depositphotos_37959283-stock-photo-wood-background.jpg)top;
+}
+
+#logo {
+	padding: 15px;
+	color: #000000;
+	float: left;
+}
+#logo h1 {
+	padding-top: 20px;
+	letter-spacing: -1px;
+	text-transform:uppercase;
+	font-size: 3.8em;
+  	margin: 0 auto;
+}
+#logo p {
+  	font-size: 2.0em;
+	margin: 0;
+	padding: 20px 10px 0 40px;
+	font: normal 18px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #000000;
+  	padding: 0 auto;
+}
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #000000;
+}
+
+#login{
+	width: 30%;
+	float: right;
+    position: relative;
+}
+/*reg forma*/
+.form-4 {
+	width: 100%;
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+    color: #000;
+    }
+.form-4 h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.form-4 input[type=text],
+.form-4 input[type=password] {
+    width: 100%;
+    padding: 8px 4px 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #4e3043;
+    border: 1px solid #bfbbbe;
+    background: rgba(0,0,0,0.15);
+    border-radius: 2px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+    color: #000;
+    font-size: 13px;
+}
+.form-4 input::-webkit-input-placeholder {
+    color: #470017;
+}
+.form-4 input:-moz-placeholder {
+    color: #470017;
+}
+.form-4 input:-ms-input-placeholder {
+    color: #470017;
+}
+.form-4 input[type=text]:hover,
+.form-4 input[type=password]:hover {
+    border-color: #333;
+}
+.form-4 input[type=submit] {
+    width: 100%;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid #4e3043;
+    transition: all 0.3s ease-out;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Raleway', 'Lato', Arial, sans-serif;
+}
+#wrapper {
+	width: 100%;
+	background: #c9c9b5;
+  	position:relative;
+}
+#menu {
+	width: 100%;
+	height: 60px;
+	background: #000000;
+}
+#menu ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+#menu li {
+	background: #000000;
+	height: 60px;
+	float: left;
+	border-right: 1px solid #1A1A18;
+}
+#menu a {
+	display: block;
+	height: 30px;
+	padding: 25px 40px 0px 40px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: none;
+}
+#menu a:hover {
+  color:#d7dec3;
+	text-decoration: none;
+}
+#search {
+	background: #000000;
+	width: 30%;
+	height: 60px;
+	padding-left: 30px;
+	display: inline-block;
+}
+#search form {
+	height: 41px;
+}
+#search-text {
+	margin-top: 15px;
+	width: 90%;
+	border: none;
+	height: 30px;
+	background: #FFFFFF url(..\img\img02.jpg) no-repeat left top;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+/*#page {
+	width: 80%;
+	margin: 0px auto;
+	padding: 0px 20px;
+	background: #c9c9b5;
+}*/
+#content {
+	background: #c9c9b5;
+  float: left;
+  text-align: left;
+	width: 80%;
+}
+.post {
+	width: 90%;
+	margin-bottom: 40px;
+  color: #000;
+  margin-left: 5%;
+  border-radius: 2px white solid;
+}
+.post img{
+  width: 100%;
+  padding-top: 10px;
+}
+.post h2 {
+	height: 1em;
+	margin-bottom: 10px;
+	padding: 12px 0 0 0px;
+}
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+.post p{
+text-indent: 1.5em;
+text-align: justify;
+}
+.post ul{
+  	padding-left:50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.more {
+	float: left;
+	display: block;
+	width: 120px;
+	height: 23px;
+	margin-right: 10px;
+	padding: 2px 0px 0px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #ffffff;
+}
+.comments {
+	float: left;
+	display:block;
+	width: 120px;
+	height: 23px;
+	padding: 2px 0px 0px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #ffffff;
+}
+#sidebar {
+	background: #c9c9b5;
+    text-align: center;
+	float: right;
+	width: 	20%;
+	color: #000;
+}
+
+#cont{
+	width: 98%;
+}
+
+#sidebar h2
+{
+  font-size: 0.8em;
+  font-family: Tahoma ,sans-serif;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#sidebar a{
+	font-size: 0.6em;
+  display:block;
+  padding: 5px 5px;
+  margin-bottom:-1px;
+  color: #000;
+  border:1px solid #e5e5e5;
+}
+#sidebar a:hover{color:#9ba827;}
+
+#sidebar ul {
+	list-style: none;
+  	text-align:center;
+}
+footer {
+  clear: both;
+	font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  padding: 0;
+  background: url(https://st.depositphotos.com/2101611/3795/i/950/depositphotos_37959283-stock-photo-wood-background.jpg) top;
+}
+#footer-menu {
+	width: 100%;
+	height: 60px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 20px;
+  padding-bottom: -40px;
+}
+#footer-menu ul {
+	width: 98%;
+	margin: 0;
+	padding: 30px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+#footer-menu li {
+	float: left;
+}
+#footer-menu a {
+	display: block;
+	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	color: #000;
+	border-right: 1px solid #383838;
+}
+
+#footer-menu a:hover {
+	color: #FFFFFF;
+}
+
+#footer-menu .current_page_item a {
+	text-decoration: none;
+}
